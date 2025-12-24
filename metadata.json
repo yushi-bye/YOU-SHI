@@ -1,0 +1,8 @@
+{
+  "name": "GameGen AI Suite",
+  "description": "A futuristic AI suite featuring Flash App generation, Multimodal Chat, and Vision analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
