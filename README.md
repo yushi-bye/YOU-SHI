@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# YOUSI 尤氏 - 玉里家人 AI
 
-# Run and deploy your AI Studio app
+> 給阿嬤的智慧家庭入口，一個 QR Code 就回家。
 
-This contains everything you need to run your app locally.
+**版本 v1.6** - PWA + Supabase Realtime + AI Gateway
 
-View your app in AI Studio: https://ai.studio/apps/drive/1VC7qBRpeIxYxkjcQr05LoGOHtCU6q7ms
+## 功能
+- `/` 首頁 - 尤氏再見 閃應用
+- `/family` 家人說明頁 (給玉里長輩看的大字版)
+- `/qr` 阿嬤掃描大字版 QR
+- `/chat` 真實聊天 (Supabase Realtime)
 
-## Run Locally
+## 玉里在地
+定位：玉里 (Yüli, Hualien) 0910-XXXXXX 家人聯絡網
 
-**Prerequisites:**  Node.js
+## 部署
+```bash
+npm install
+npm run dev
+```
 
+環境變數 `.env.local`:
+```
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+OPENAI_API_KEY= 或 GEMINI_API_KEY=
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Vercel 部署
+Import from GitHub: yushi-bye/YOU-SHI -> 自動部署

@@ -1,0 +1,21 @@
+{
+  "name": "尤氏 YOUSI",
+  "short_name": "YOUSI",
+  "description": "玉里家人 AI - 閃應用生成器",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf8f6",
+  "theme_color": "#a0756d",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
